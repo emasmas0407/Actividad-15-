@@ -1,0 +1,108 @@
+body{
+    background-color: #ffffff;
+}
+
+header{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 20px; padding-right: 20px; padding-top: 15px; padding-bottom: 15px;
+}
+
+nav{
+    background-color: #535353;
+    margin-bottom: 10px; padding: 0px;
+}
+
+nav ul{
+    list-style: rgb(52, 52, 52);
+    padding-left: 20px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0px 15px 0px 15px;
+}
+
+a{
+    text-decoration: black;
+    padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px;
+    border-width: 4px 1.25em;
+    border-style: none;
+    border: thick double #2b0225;
+}
+
+h2{
+    background-color: #656565;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 10px;
+    font-family: serif;
+}
+
+article{
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-bottom: 10px; padding: 10px;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px; padding: 10px;
+}
+
+p{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+h3{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 24px;
+    font-size: 12px;
+}
+
+h1{
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#titulo{
+    background-color: #333;
+}
+
+#menuPrincipal{
+    background-color: #444;
+}
+
+
+.enlaceMenuPrincipal{
+    color: #ffffff;
+}
+
+.tituloSeccion{
+    color:#ffffff ;
+}
+
+#principalarticle{
+    background-color: #ffffff;
+}
+/* default hover effect */
+a:hover {
+    color: black;
+    background: rgb(95, 4, 65);
+  }
+  
+  @media (hover: hover) {
+    /* when hover is supported */
+    a:hover {
+      color: white;
+      background: black;
+    }
+}
